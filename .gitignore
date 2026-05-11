@@ -1,0 +1,17 @@
+# Archivos de entorno virtual
+venv/
+.env
+
+# Archivos de Jupyter
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Datos grandes que no deben subirse a Git (para evitar límites de GitHub)
+Base_estadistica_matricula_UEP_15_23.xlsx
+
+# Si tu archivo CSV 'estudiantes_foraneos.csv' es muy pesado (+50MB), 
+# descomenta la siguiente línea para que tampoco se suba:
+# estudiantes_foraneos.csv
